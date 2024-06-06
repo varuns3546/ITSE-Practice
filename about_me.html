@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <!-- This is a comment in HTML -->
         <title>About Me</title>
         <meta charset="utf-8">
         <meta name="description" content="All about me, Varun Seenivasan">
+        <style>
+            .content-container {
+                max-width: 800px;
+                margin: auto;
+            }
+            .head{
+                display: flex;
+                align-items: center;
+            }
+            
+        </style>
     </head>
     <body>
-        <header>Hi, my name is Varun Seenivasan and I am a computer science student at Collin College.</header>
-        <figure><img src="varun.jpeg" alt="picture of me" width="200" height="150"></figure>
-        <article>
-            <h1>I have been coding since I was very young and <em>quite</em> enjoy it.</h1>
-            <h2>test</h2>
-            <h3>test</h3> 
-        </article>
-        <nav>
-            <h1>I have worked on several projects since I started coding. Some of those include: </h1>
-            <ul>
-                <li><a href="https://github.com/varuns3546/Web-Scraper">A web scraper that collects product data.</a></li>
-                <li>A poker equity calculator</li>
-                <li>...</li>
-            </ul>
-        </nav>
-        <p>
+        <article class="content-container">
+            <div class="head">
+                <figure><img src="varun.jpeg" alt="picture of me" width="300" height="200"></figure>
+                <header><h1>Hi, my name is Varun Seenivasan and I am a computer science student at Collin College.</h1></header>
+            </div>
             
-            <strong>snowboarding and sleding</strong>
-            <p>This paragraph contains a and sign: &amp;</p>
-
-        </p>
+            <p>
+                <h2>I have been coding since I was very young and <em>quite</em> enjoy it.</h2>
+                My favorite languages are <strong>Python</strong> &amp; <strong>JavaScript</strong>
+                My first taste of coding was in elementary school when I started using Scratch.
+                Scratch is a website where you can use pre-made blocks that represent code to create programs.
+                I went on to learn java in highschool where I took four years of computer science classes.
+                After highschool I began working in Python which ended up becoming my favorite language.
+                Most recently I have been developing my skills in JavaScript.
+                
+            </p>
+            <nav>
+                <h3>I have worked on several projects since I started coding. Some of those include: </h3>
+                <ul>
+                    <li><a href="https://github.com/varuns3546/Web-Scraper">A web scraper that collects product data.</a></li>
+                    <li>A poker equity calculator</li>
+                    <li>Simple calculators and data analysis tools in python</li>
+                </ul>
+            </nav>
+            <footer>
+                <a href="https://github.com/varuns3546" title="My Github">My Github</a><br>
+                Webmaster: Varun Seenivasan<br>
+                Last Update: 6/5/24
+            </footer>   
+        </article>
         
-
-        <footer>
-            <a href="https://github.com/varuns3546" title="My Github">My Github</a><br>
-            Webmaster: Varun Seenivasan<br>
-            Last Update: 6/5/24
-        </footer>    
     </body>
 </html>
