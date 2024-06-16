@@ -1,5 +1,7 @@
 /*external stylesheet for practice*/
-
+main{
+    color: lightblue
+}
 h1{
     text-align: center;
     letter-spacing: .5em;
@@ -16,7 +18,7 @@ nav ul {
 nav li{
     width: 70%;
     padding: .5em;
-    border-bottom: 1px white solid;
+    border-bottom: 1px darkblue;
 }
 nav a{
     text-decoration: none;
