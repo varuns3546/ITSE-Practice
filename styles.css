@@ -1,0 +1,31 @@
+.wrapper{
+    background-color: rgb(200, 200, 200);
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .wrapper::after{
+    content: " ";
+    clear: both;
+    display: block;
+ }
+ .col1{
+    width: 50%;
+    float: left;
+    padding: 1em;
+ }
+ .col2{
+    width: 50%;
+    float: left;
+    padding: 1em;
+ }
+ .col3{
+    width: 25%;
+    float: left;
+    padding: 1em;
+ }
+ .col4{
+    width: 25%;
+    float: left;
+    padding: 1em;
+ }
