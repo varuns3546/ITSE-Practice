@@ -40,3 +40,6 @@
     float: left;
     padding: 1em;
  }
+ ul{
+   list-style-type: none;
+ }
