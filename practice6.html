@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"
+        <title>Practice 6</title>
+        <style>
+            @keyframes example {
+                0%{
+                    background-color: indigo;
+                    transform: scale(.4);
+                }
+                50%{
+                    background-color: peru;
+                    transform: scale(1.2);
+                }
+                75%{
+                    background-color: saddlebrown;
+                    transform: scale(45deg);
+                }
+                100%{
+                    background-color: indigo;
+                    transform: scale(-45deg);
+                }
+            }
+            div{
+                margin: 10px; background-color: yellow; width:100px; 
+                height: 100px; border: 2px solid black;
+            }
+            .move{
+                transform: translate(100px, 0px);
+            }
+            .scale{
+                transform: scale(.5, .7);
+            }
+            .rotate{
+                transform: rotate(45deg);
+            }
+            .skew{
+                transform: skew(10deg, 25deg);
+            }
+            .transition{
+                transition-property: width;
+                transition-duration: 3s;
+                transition-timing-function: ease-in;
+                transition-delay: 1s;
+            }
+            .transition:hover{
+                width: 500px;
+            }
+            .animation{
+                animation-name: example;
+                animation-duration: 6s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Practice</h1>
+        <h3>Transforms</h3>
+        <div class="move">This is a box we are going to transform by moving</div>
+        <div class="scale">This is a box we are going to transform by scaling</div>
+        <div class="rotate">This is a box we are going to transform by rotating</div>
+        <div class="skew">This is a box we are going to transform by skewing</div>
+        <h3>Transitions</h3>
+        <div class="transition">This is a box we are going to transition</div>
+        <h3>Animations</h3>
+        <div class="animation">This is a box we are going to animate</div>
+
+
+    </body>
+</html>
