@@ -1,0 +1,9 @@
+nav{
+    display: none;
+}
+header{
+    height: auto;
+}
+header h1{
+    font-size: 2rem;
+}
